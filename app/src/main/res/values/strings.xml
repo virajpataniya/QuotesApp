@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Magic World</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Category_text">It contains different categories</string>
+    <string name="About_text">This app is used for daily quotes</string>
+    <string name="Fav_text">Your Favourites are here</string>
+    <string name="Categories">Categories</string>
+    <string name="Favourites">Favourites</string>
+    <string name="About">About Us</string>
+
+    <string name="catHeader">Header</string>
+    <string name="catShayari">Shayari Text</string>
+</resources>
