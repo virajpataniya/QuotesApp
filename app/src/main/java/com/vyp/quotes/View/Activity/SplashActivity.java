@@ -1,4 +1,4 @@
-package com.example.magicworld.View.Activity;
+package com.vyp.quotes.View.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,9 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.magicworld.R;
-
-import java.util.Objects;
+import com.vyp.quotes.R;
 
 public class SplashActivity extends AppCompatActivity {
 

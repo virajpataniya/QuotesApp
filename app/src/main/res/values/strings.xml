@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Magic World</string>
+    <string name="app_name">Quotes</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="Category_text">It contains different categories</string>
     <string name="About_text">This app is used for daily quotes</string>
