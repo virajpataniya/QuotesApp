@@ -5,62 +5,33 @@ package com.vyp.quotes.Model;
  */
 
 public class QuoteModel {
-    public String quote,timestamp, categoryName;
-    public int id;
+    private String quote;
+    private String timestamp;
+    private int id;
+    private String row;
+    private String category;
 
-    public QuoteModel(String s) {
-        quote = s;
-    }
-
-    public String getBookmark() {
-        return bookmark;
-    }
-
-    public void setBookmark(String bookmark) {
-        this.bookmark = bookmark;
-    }
-
-   public String bookmark;
-
-    boolean isBookmared;
-
-    public boolean isBookmared() {
-        return isBookmared;
-    }
-
-    public void setBookmared(boolean bookmared) {
-        isBookmared = bookmared;
-    }
-
-    public String getCategoryName() {
-        return categoryName;
-    }
-
-    public void setCategoryName(String categoryName) {
-        this.categoryName = categoryName;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
+//    public QuoteModel(String quote) {
+//        this.quote = quote;
+//    }
 
     public String getQuote() {
         return quote;
-    }
-
-    public void setQuote(String quote) {
-        this.quote = quote;
     }
 
     public String getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(String timestamp) {
-        this.timestamp = timestamp;
+    public int getId() {
+        return id;
+    }
+
+    public String getRow() {
+        return row;
+    }
+
+    public String getCategory() {
+        return category;
     }
 }

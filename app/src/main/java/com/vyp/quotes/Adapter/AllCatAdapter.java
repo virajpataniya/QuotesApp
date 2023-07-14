@@ -1,10 +1,13 @@
 package com.vyp.quotes.Adapter;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -47,7 +50,6 @@ public class AllCatAdapter extends RecyclerView.Adapter<AllCatAdapter.catviewhol
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, QuotesActivity.class);
-                intent.putExtra("image",temp.getImage());
                 intent.putExtra("Header",temp.getHeader());
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);

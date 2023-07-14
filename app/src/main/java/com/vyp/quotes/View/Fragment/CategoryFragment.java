@@ -52,7 +52,7 @@ public class CategoryFragment extends Fragment {
 
         ArrayList<AllCategorymodel> arrListObj = new ArrayList<>();
 
-        AllCategorymodel c1 = new AllCategorymodel(R.drawable.joke1, "Jokes");
+        AllCategorymodel c1 = new AllCategorymodel(R.drawable.joke1, "Happiness");
         arrListObj.add(c1);
 
         AllCategorymodel c2 = new AllCategorymodel(R.drawable.romantic, "Romantic");

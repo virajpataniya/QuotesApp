@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "432989935530",
+    "firebase_url": "https://quotes-80056-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "quotes-80056",
+    "storage_bucket": "quotes-80056.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432989935530:android:51ddeaffed4bf13bdfbdd3",
+        "android_client_info": {
+          "package_name": "com.vyp.quotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432989935530-930q9lf4saeissnk5kjtg8iksvfmddsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vyp.quotes",
+            "certificate_hash": "810551a6fbe11e20080281fb4dba5c64053ba3f5"
+          }
+        },
+        {
+          "client_id": "432989935530-5pl98h7s6jvl4adskj9rl0fhk050bn4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpEwquqKt5Mbfn_F9DNAE2-PNtnUKGCpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432989935530-5pl98h7s6jvl4adskj9rl0fhk050bn4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
